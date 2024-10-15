@@ -1,0 +1,121 @@
+body{
+    background-image: url("https://imgs.search.brave.com/olcjuJVKS9tVA5p1R7k3W2BC06VcqcFkD17rzAGi8cY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC8zNi8wMS90/ZWNobm9sb2d5LWJh/Y2tncm91bmQtYmlu/YXJ5LWNvbXB1dGVy/LWNvZGUtdmVjdG9y/LTM1NTkzNjAxLmpw/Zw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .container {
+        width: 500px;
+        margin: 100px auto;
+        background-color: #e7e8f0;
+        padding: 20px;
+        border: 1px solid #fff6f6;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(91, 75, 151, 0.884);
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #1423f8;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    button:hover {
+    background-color: #1305d8;
+}
+
+.message {
+    text-align: center;
+    color: red;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+}.header {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    /*padding: 20px 10px;*/
+  }
+
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(88, 3, 3);
+    color: White;
+  }
+
+  .header a.active {
+    background-color: rgb(54, 54, 1);
+    color: white;
+  }
+
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+
+  .footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(153, 245, 125);
+    color: rgb(13, 151, 75);
+    text-align: center;
+  }
+  #content{
+    color: maroon;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+  }
