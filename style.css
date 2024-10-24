@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 h1{
     color: rgb(60, 179, 113), blue;
     text-align: center;
@@ -11,8 +12,27 @@ h1{
 }.header {
     overflow: hidden;
     background-color: rgb(33, 117, 7);
-    /*padding: 20px 10px;*/
+   
   }
+  .cars-section {
+    padding: 20px; /* Add some padding around the section */
+}
+
+.image-gallery {
+    display: flex; /* Flexbox for layout */
+    justify-content: left; /* Center the items */
+    flex-wrap: wrap; /* Allow wrapping for multiple items */
+}
+
+.car-item {
+    border: 2px solid #ccc; /* Border color */
+    padding: 15px; /* Inner padding */
+    margin: 20px; /* Outer margin */
+    text-align: center; /* Centered text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #f9f9f9; /* Light background color */
+}
 
   .header img{
     height: 50px;
@@ -20,7 +40,7 @@ h1{
   }
 
 
-  /* Style the header links */
+  
   .header a {
     float: left;
     color: white;

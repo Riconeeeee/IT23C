@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("https://imgs.search.brave.com/97A4577mi559huK6YWLleiEsQhZ7vGgdtE8HdDFg6jo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzZXQuY29t/L3cvZnVsbC84LzEv/Yi81MDU0MzYuanBn");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,7 +14,7 @@ h1{
     color: white;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 50px;
 
 }
 .header {
