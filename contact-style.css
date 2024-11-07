@@ -1,88 +1,134 @@
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* Clean, modern font */
+}
 
-body{
-    background-image: url("https://imgs.search.brave.com/52RZDdUDU1gSyP8ojp3GqDgIcbmX7CF2K5oVvmlII1k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDI4MzQx/MDcuanBn");
-    background-repeat: no-repeat;
-    background-size: cover;
+.header {
+  overflow: hidden;
+  background-color: #21470b;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}.header a {
+  float: left;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
 }
-h1{
-    color:black;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+
+.header a.logo {
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 15px;
 }
-h2{
-    color:black;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+
+.header a:hover {
+  background-color: #2e8b57;
+  color: white;
 }
-h3{
-        color:black;
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 50px;
-  
-}.header {
-    overflow: hidden;
-    background-color: rgb(33, 117, 7);
-    /*padding: 20px 10px;*/
+
+.header a.active {
+  background-color: #365401;
+  color: white;
+}
+
+.header-Right {
+  float: right;
+  padding-right: 15px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #21470b;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  color: #333;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: rgb(18, 19, 18);
+  text-align: justify; /* Justified text */
+  font-size: 20px; /* Font size for body text */
+  margin: 10px 0; /* Margin around body text */
+  padding: 2rem; /* Padding for readability */
+}
+
+.container {
+  max-width: 800px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding for spacing */
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Form Styles */
+form {
+  display: flex; /* Use flexbox for form layout */
+  flex-direction: column; /* Arrange elements vertically */
+  gap: 15px; /* Space between form elements */
+  margin-top: 20px; /* Space above the form */
+}
+
+label {
+  font-weight: bold; /* Bold labels */
+}
+
+input, textarea {
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Light border for input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+  width: 100%; /* Full width of the container */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+  padding: 10px 15px; /* Padding for the button */
+  background-color: rgb(4, 160, 9); /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Button text size */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #000; /* Change background color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 50px; /* Smaller title for smaller screens */
   }
 
-  .header img{
-    height: 50px;
-    width: 50px;
+  h2 {
+      font-size: 18px; /* Smaller text for body on smaller screens */
+      padding: 1rem; /* Reduced padding on smaller screens */
   }
 
-
-  /* Style the header links */
   .header a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+      font-size: 16px; /* Smaller text for mobile */
+      padding: 8px 10px; /* Smaller padding for mobile */
   }
+}
 
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+@media (max-width: 480px) {
+  h1 {
+      font-size: 40px; /* Further reduce title size for mobile */
   }
-
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    background-color: rgb(88, 3, 3);
-    color: White;
-  }
-
-  .header a.active {
-    background-color: rgb(54, 54, 1);
-    color: white;
-  }
-
-  /* Float the link section to the right */
-  .header-Right {
-    float: right;
-  }
-
-  .footer{
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(153, 245, 125);
-    color: rgb(13, 151, 75);
-    text-align: center;
-  }
-  #content{
-    color: maroon;
-    text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 75px;
-  }
+}
