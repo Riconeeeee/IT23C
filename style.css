@@ -9,10 +9,11 @@ h1{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100px;
+    
 }.header {
     overflow: hidden;
     background-color: rgb(33, 117, 7);
-   
+    text-align: center;
   }
   .cars-section {
     padding: 20px; /* Add some padding around the section */
@@ -37,6 +38,7 @@ h1{
   .header img{
     height: 50px;
     width: 50px;
+    text-align: center;
   }
 
 
